@@ -1,0 +1,6 @@
+import os
+CLICKHOUSE_HOST = os.getenv('CLICKHOUSE_HOST', 'clickhouse-node1')
+CLICKHOUSE_DATABASE = os.getenv('CLICKHOUSE_DATABASE', 'default')
+CLICKHOUSE_TABLE = os.getenv('CLICKHOUSE_TABLE', 'views')
+CLICKHOUSE_USER = os.getenv('CLICKHOUSE_USER', 'app')
+CLICKHOUSE_PASSWORD = os.getenv('CLICKHOUSE_PASSWORD', 'qwe123')
